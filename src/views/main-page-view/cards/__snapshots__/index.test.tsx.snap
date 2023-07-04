@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cards test correct value 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <ul
+        class="flex align-middle items-center justify-center gap-x-5"
+      >
+        <li
+          class="flex"
+          data-testid="card-0"
+        >
+          <img
+            alt="3D"
+            data-nimg="1"
+            decoding="async"
+            height="400"
+            loading="lazy"
+            src="/_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F3D.png&w=640&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F3D.png&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F3D.png&w=640&q=75 2x"
+            style="color: transparent;"
+            width="200"
+          />
+        </li>
+        <li
+          class="flex"
+          data-testid="card-1"
+        >
+          <img
+            alt="6S"
+            data-nimg="1"
+            decoding="async"
+            height="400"
+            loading="lazy"
+            src="/_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F6S.png&w=640&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F6S.png&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F6S.png&w=640&q=75 2x"
+            style="color: transparent;"
+            width="200"
+          />
+        </li>
+        <li
+          class="flex"
+          data-testid="card-2"
+        >
+          <img
+            alt="7S"
+            data-nimg="1"
+            decoding="async"
+            height="400"
+            loading="lazy"
+            src="/_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F7S.png&w=640&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F7S.png&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F7S.png&w=640&q=75 2x"
+            style="color: transparent;"
+            width="200"
+          />
+        </li>
+        <li
+          class="flex"
+          data-testid="card-3"
+        >
+          <img
+            alt="9S"
+            data-nimg="1"
+            decoding="async"
+            height="400"
+            loading="lazy"
+            src="/_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F9S.png&w=640&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F9S.png&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F9S.png&w=640&q=75 2x"
+            style="color: transparent;"
+            width="200"
+          />
+        </li>
+        <li
+          class="flex"
+          data-testid="card-4"
+        >
+          <img
+            alt="0D"
+            data-nimg="1"
+            decoding="async"
+            height="400"
+            loading="lazy"
+            src="/_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F0D.png&w=640&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F0D.png&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F0D.png&w=640&q=75 2x"
+            style="color: transparent;"
+            width="200"
+          />
+        </li>
+      </ul>
+    </div>
+  </body>,
+  "container": <div>
+    <ul
+      class="flex align-middle items-center justify-center gap-x-5"
+    >
+      <li
+        class="flex"
+        data-testid="card-0"
+      >
+        <img
+          alt="3D"
+          data-nimg="1"
+          decoding="async"
+          height="400"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F3D.png&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F3D.png&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F3D.png&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </li>
+      <li
+        class="flex"
+        data-testid="card-1"
+      >
+        <img
+          alt="6S"
+          data-nimg="1"
+          decoding="async"
+          height="400"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F6S.png&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F6S.png&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F6S.png&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </li>
+      <li
+        class="flex"
+        data-testid="card-2"
+      >
+        <img
+          alt="7S"
+          data-nimg="1"
+          decoding="async"
+          height="400"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F7S.png&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F7S.png&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F7S.png&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </li>
+      <li
+        class="flex"
+        data-testid="card-3"
+      >
+        <img
+          alt="9S"
+          data-nimg="1"
+          decoding="async"
+          height="400"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F9S.png&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F9S.png&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F9S.png&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </li>
+      <li
+        class="flex"
+        data-testid="card-4"
+      >
+        <img
+          alt="0D"
+          data-nimg="1"
+          decoding="async"
+          height="400"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F0D.png&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F0D.png&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fdeckofcardsapi.com%2Fstatic%2Fimg%2F0D.png&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </li>
+    </ul>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

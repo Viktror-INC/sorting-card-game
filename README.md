@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Project Description
 
-## Getting Started
+This project is a card game application built with Next.js, React, and Tailwind CSS. It allows users to play a sorting game with a deck of cards. The application has the following features:
 
-First, run the development server:
+- The application should display five cards with their back sides visible.
+- The user should be able to click on each card.
+- Clicking on a card should rotate it and reveal its front side.
+- After five clicks (when all five cards are showing their front sides), the cards should be sorted in ascending order, with 'A' being the lowest and 'K' being the highest.
+- A restart button should appear after the sorted cards are displayed.
+- Clicking the restart button should start a new game with a new deck of cards.
+- Comprehensive tests have been written using React Testing Library and Jest to ensure proper functionality.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The project is implemented using the following technologies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js: A React framework for building server-rendered applications.
+- React: A JavaScript library for building user interfaces.
+- Tailwind CSS: A utility-first CSS framework for quickly styling web applications.
+- Material-UI: A popular React component library for building UI elements and components.
+- React Testing Library: A testing library for testing React components and interactions.
+- Jest: A JavaScript testing framework used in conjunction with React Testing Library for unit and integration testing.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Implementation Details
 
-## Learn More
+The card game is built using React components and styled using Tailwind CSS classes. The game logic is implemented using JavaScript and React hooks within the Next.js framework. When a card is clicked, a function is called to flip the card and keep track of the number of flipped cards. Once all five cards are flipped, another function is triggered to sort the cards in ascending order. After sorting, the restart button becomes visible, allowing users to start a new game.
 
-To learn more about Next.js, take a look at the following resources:
+## Testing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Comprehensive tests have been implemented using React Testing Library and Jest. These tests cover scenarios such as:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Rendering the card components and ensuring they are initially displayed with their back sides visible.
+- Simulating user clicks on the cards and verifying that they are flipped to reveal the front side.
+- Checking that the cards are sorted correctly after five flips.
+- Testing the restart functionality to ensure it starts a new game with a new deck of cards.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+These tests are executed using Jest and React Testing Library to ensure that the application functions as expected.
